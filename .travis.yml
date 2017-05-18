@@ -1,0 +1,14 @@
+language: r
+sudo: false
+cache: packages
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      env: R_CODECOV=true
+
+r_packages:
+- covr
+after_success:
+- if [[ "${R_CODECOV}" ]]; then R -e 'covr::codecov()'; fi

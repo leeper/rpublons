@@ -1,0 +1,16 @@
+Package: rpublons
+Type: Package
+Title: Client for Publons.com
+Version: 0.1.1
+Date: 2017-05-18
+Authors@R: c(person("Thomas J.", "Leeper", role = c("aut", "cre"),
+                    email = "thosjleeper@gmail.com"))
+Description: Extract review information information from Publons <https://publons.com>.
+License: MIT + file LICENSE
+URL: https://github.com/leeper/publons
+BugReports: https://github.com/leeper/publons/issues
+Imports:
+    httr
+Suggests:
+    testthat
+RoxygenNote: 6.0.1
