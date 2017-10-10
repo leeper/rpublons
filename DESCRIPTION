@@ -3,8 +3,11 @@ Type: Package
 Title: Client for Publons.com
 Version: 0.1.1
 Date: 2017-05-18
-Authors@R: c(person("Thomas J.", "Leeper", role = c("aut", "cre"),
-                    email = "thosjleeper@gmail.com"))
+Authors@R: c(person("Thomas J.", "Leeper",
+                    role = c("aut", "cre"), 
+                    email = "thosjleeper@gmail.com",
+                    comment = c(ORCID = "0000-0003-4097-6326"))
+             )
 Description: Extract review information information from Publons <https://publons.com>.
 License: MIT + file LICENSE
 URL: https://github.com/leeper/publons
