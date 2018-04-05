@@ -39,9 +39,9 @@ publons("GET", paste0("academic/review/", "YK8zafgo"))
 This package is not yet on CRAN. To install the latest development version you can install pull a potentially unstable version directly from GitHub:
 
 ```R
-if (!require("ghit")) {
-    install.packages("ghit")
+if (!require("remotes")) {
+    install.packages("remotes")
 }
-ghit::install_github("leeper/rpublons")
+remotes::install_github("leeper/rpublons")
 ```
 
